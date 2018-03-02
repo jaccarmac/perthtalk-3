@@ -37,6 +37,6 @@ As far as 2. goes it would be nice if my Smalltalk subset were capable of compil
     3. Compile methods.
     4. Serialize image.
 
-They use a small kernel with 54 classes to do the work. On the other hand I'm partial to a true bootstrap approach where the core is implemented in Python.</t>
+They generate a small kernel with 54 classes using GNU Smalltalk. I don't like GST's syntax and want to boostrap things out of Python. How technically feasible this is remains to be seen.</t>
 </tnodes>
 </leo_file>
