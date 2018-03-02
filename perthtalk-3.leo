@@ -11,7 +11,7 @@
 <vnodes>
 <v t="jaccarmac.20180301205902.3" a="E"><vh>Initial bootstrapping plan.</vh>
 <v t="jaccarmac.20180301215858.1" a="E"><vh>Difficulties: images.</vh>
-<v t="jaccarmac.20180301220834.1"><vh>Casaccio 2011.</vh></v>
+<v t="jaccarmac.20180301220834.1"><vh>Casaccio et al. 2011.</vh></v>
 </v>
 </v>
 </vnodes>
