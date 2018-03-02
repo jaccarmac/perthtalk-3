@@ -10,7 +10,9 @@
 <find_panel_settings/>
 <vnodes>
 <v t="jaccarmac.20180301205902.3" a="E"><vh>Initial bootstrapping plan.</vh>
-<v t="jaccarmac.20180301215858.1"><vh>Difficulties: images.</vh></v>
+<v t="jaccarmac.20180301215858.1" a="E"><vh>Difficulties: images.</vh>
+<v t="jaccarmac.20180301220834.1"><vh>Casaccio 2011.</vh></v>
+</v>
 </v>
 </vnodes>
 <tnodes>
@@ -28,5 +30,13 @@ My first idea for the image format is to simply use a Leo document as the image.
 
 As far as 2. goes it would be nice if my Smalltalk subset were capable of compiling itself somehow. This isn't really a needed feature and caters purely to my interest in compilers. Again time will tell.</t>
 <t tx="jaccarmac.20180301215858.1">I underestimated the effort of creating an image from scratch. There is some research in the area, but most previous Smalltalks (including Squeak) were bootstrapped by operating on an existing image or a translation of an existing image. This is out of scope for what I'm trying to do here, I believe.</t>
+<t tx="jaccarmac.20180301220834.1">Casaccio, Ducasse, Fabresse, Arnaud, and van Ryseghm describe a GNU Smalltalk bootstrap process (very) roughly like:
+
+    1. Stub literals, true, false, nil, characters.
+    2. Stub definitions of classes and metaclasses.
+    3. Compile methods.
+    4. Serialize image.
+
+They use a small kernel with 54 classes to do the work. On the other hand I'm partial to a true bootstrap approach where the core is implemented in Python.</t>
 </tnodes>
 </leo_file>
