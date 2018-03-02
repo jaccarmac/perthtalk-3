@@ -9,7 +9,9 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="jaccarmac.20180301205902.3"><vh></vh></v>
+<v t="jaccarmac.20180301205902.3" a="E"><vh>Initial bootstrapping plan.</vh>
+<v t="jaccarmac.20180301215858.1"><vh>Difficulties: images.</vh></v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="jaccarmac.20180301205902.3">The Squeak implementors described their process approximately as follows (Forgive my memory, I can't double check the web site at the moment.):
@@ -25,5 +27,6 @@ The approach here shall be somewhat similar.
 My first idea for the image format is to simply use a Leo document as the image. This should serve at least as a proof of concept, but may have to be scrapped to perform decently. Time will tell.
 
 As far as 2. goes it would be nice if my Smalltalk subset were capable of compiling itself somehow. This isn't really a needed feature and caters purely to my interest in compilers. Again time will tell.</t>
+<t tx="jaccarmac.20180301215858.1">I underestimated the effort of creating an image from scratch. There is some research in the area, but most previous Smalltalks (including Squeak) were bootstrapped by operating on an existing image or a translation of an existing image. This is out of scope for what I'm trying to do here, I believe.</t>
 </tnodes>
 </leo_file>
