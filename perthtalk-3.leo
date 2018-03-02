@@ -12,6 +12,7 @@
 <v t="jaccarmac.20180301205902.3" a="E"><vh>Initial bootstrapping plan.</vh>
 <v t="jaccarmac.20180301215858.1" a="E"><vh>Difficulties: images.</vh>
 <v t="jaccarmac.20180301220834.1"><vh>Casaccio et al. 2011.</vh></v>
+<v t="jaccarmac.20180301221928.1"><vh>Two-way bootstrap?</vh></v>
 </v>
 </v>
 </vnodes>
@@ -38,5 +39,6 @@ As far as 2. goes it would be nice if my Smalltalk subset were capable of compil
     4. Serialize image.
 
 They generate a small kernel with 54 classes using GNU Smalltalk. I don't like GST's syntax and want to boostrap things out of Python. How technically feasible this is remains to be seen.</t>
+<t tx="jaccarmac.20180301221928.1">My distaste to boostrapping from something like Pharo is because I want to only be tied to Python 3 and Leo. However, it might not be a bad idea to have the Smalltalk boostrap code run in Pharo as well as transpile to Python (and transpile itself?). That said I'm definitely against using a tracer to dump an image in a new format. I will be following the static image generation protocol for this project.</t>
 </tnodes>
 </leo_file>
