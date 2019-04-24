@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
-<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
-	<global_window_position top="50" left="50" height="500" width="700"/>
-	<global_log_window_position top="0" left="0" height="0" width="0"/>
-</globals>
+<leo_header file_format="2"/>
+<globals/>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="jaccarmac.20180301205902.3" a="E"><vh>Initial bootstrapping plan.</vh>
-<v t="jaccarmac.20180301215858.1" a="E"><vh>Difficulties: images.</vh>
+<v t="jaccarmac.20180301205902.3"><vh>Initial bootstrapping plan.</vh>
+<v t="jaccarmac.20180301215858.1"><vh>Difficulties: images.</vh>
 <v t="jaccarmac.20180301220834.1"><vh>Casaccio et al. 2011.</vh></v>
 <v t="jaccarmac.20180301221928.1"><vh>Two-way bootstrap?</vh></v>
+<v t="jaccarmac.20190424164813.1"><vh>Python generation from Pharo.</vh></v>
 </v>
 </v>
 </vnodes>
@@ -40,5 +38,8 @@ As far as 2. goes it would be nice if my Smalltalk subset were capable of compil
 
 They generate a small kernel with 54 classes using GNU Smalltalk. I don't like GST's syntax and want to boostrap things out of Python. How technically feasible this is remains to be seen.</t>
 <t tx="jaccarmac.20180301221928.1">My distaste to boostrapping from something like Pharo is because I want to only be tied to Python 3 and Leo. However, it might not be a bad idea to have the Smalltalk boostrap code run in Pharo as well as transpile to Python (and transpile itself?). That said I'm definitely against using a tracer to dump an image in a new format. I will be following the static image generation protocol for this project.</t>
+<t tx="jaccarmac.20190424164813.1">The Python3Generator just might be useful. The API seems a bit clunky; Perhaps an opportunity to explore Smalltalk's equivalent to macro magic in Lisp?
+
+https://github.com/juliendelplanque/Python3Generator</t>
 </tnodes>
 </leo_file>
